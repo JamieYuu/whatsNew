@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "636234223823",
+    "firebase_url": "https://mad-project-cfe40.firebaseio.com",
+    "project_id": "mad-project-cfe40",
+    "storage_bucket": "mad-project-cfe40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636234223823:android:23d998452b313af5",
+        "android_client_info": {
+          "package_name": "com.mad.whatsnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636234223823-f7ht9vc1moj2kkislchptqsn9q76pqte.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "636234223823-f7ht9vc1moj2kkislchptqsn9q76pqte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCofFh2g00G8PjXi_hpZDhWvXBUk4rirek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

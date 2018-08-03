@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">whats new</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">Search RSS</string>
+    <string name="title_activity_news">RSS content</string>
+
+    <string name="title_activity_result">Search result</string>
+    <string name="title_activity_firebase_test">FirebaseTest</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_favorite">My favorite</string>
+    <string name="title_activity_setting">Setting</string>
+
+    <string name="nav_no_login_alert">You are not logged in!</string>
+
+    <string name="no_internet_connection">No internet connection!</string>
+
+    <string name="invalid_email">Input email invalid</string>
+    <string name="invalid_password">Input password invalid</string>
+
+    <string name="login_toast">Your have logged in!</string>
+
+    <string name="found">Found </string>
+    <string name="in">in </string>
+    <string name="seconds">seconds.</string>
+
+    <string name="mark_fav_toast">Marked as favorite</string>
+
+    <string name="login_fav_toast">You need log in first!</string>
+
+    <string name="register_password_error">Password cannot be empty!</string>
+    <string name="register_secpass_error">Does not match password!</string>
+    <string name="register_email_error">Email cannot be empty!</string>
+    <string name="register_success_toast">Register successfully!</string>
+
+    <string name="setting_url_error">Url cannot be empty!</string>
+    <string name="setting_title_error">Title cannot be empty!</string>
+    <string name="setting_url_inva">Invalid xml resource url!</string>
+
+    <string name="fireauth_login_fail">Login failed!</string>
+    <string name="fireauth_reg_fail">Register failed!</string>
+    <string name="fireauth_logout_toast">You have logged out!</string>
+
+    <string name="favorite_login_first">Please login first</string>
+    <string name="favorite_no_interest">No interest yet!</string>
+
+    <string name="result_no_result">Opps! Cannot find it!</string>
+
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="history">History</string>
+
+    <string name="setting_rss_title">My RSS resources</string>
+    <string name="setting_rss_empty">Your source list is empty</string>
+
+    <string name="nav_login_none">You are not logged in!</string>
+</resources>

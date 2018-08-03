@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+    android:layout_margin="5sp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:elevation="-10sp">
+    <!-- Bottom View Start-->
+    <RelativeLayout
+        android:tag="Bottom"
+        android:background="#FF0000"
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="80dp"
+        android:layout_margin="5sp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <!--What you want to show-->
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_swipe_delete"/>
+    </RelativeLayout>
+    <!-- Bottom View End-->
+
+    <!-- Surface View Start -->
+    <RelativeLayout
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="6sp">
+        <!--What you want to show in SurfaceView-->
+        <TextView
+            android:id="@+id/swipe_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THIS IS TITLE HAHAHAHAHA"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5sp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_card_view_date"
+                android:paddingRight="5dp"/>
+
+            <TextView
+                android:id="@+id/swipe_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingRight="10dp"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_card_view_author"
+                android:paddingRight="5dp"/>
+
+            <TextView
+                android:id="@+id/swipe_item_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- Surface View End -->
+</com.daimajia.swipe.SwipeLayout>

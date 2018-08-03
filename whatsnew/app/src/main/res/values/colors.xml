@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_gray">#EBEBEB</color>
+    <color name="background_gray_line">#888888</color>
+    <color name="background_black">#000000</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <color name="fab_blue">#2497db</color>
+
+    <color name="nav_header_red">#db3236</color>
+
+    <color name="login_button">#2196F3</color>
+
+    <color name="setting_title_background">#455a64</color>
+
+    <color name="button_red">#e91e63</color>
+</resources>
